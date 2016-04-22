@@ -57,7 +57,7 @@ public class WeatherChecker {
 		String country = sys.getString("country");
 		weather.setCountry(country);
 		
-		String city = sys.getString("name");
+		String city = json.getString("name");
 		weather.setCity(city);
 		
 		String temp = main.getString("temp");
